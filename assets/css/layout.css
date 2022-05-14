@@ -2,8 +2,12 @@
   background: #eeeeee;
 }
 
-.site-header-inner {
-  max-width: 960px;
+.site-header-inner,
+.navigation-bar,
+article,
+aside,
+.footer-wigets {
+  max-width: 1050px;
   margin: 0 auto;
 }
 
