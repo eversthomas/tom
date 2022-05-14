@@ -1,5 +1,5 @@
-# html5boiler
-html5 css boiler
+# tom
+personell website on github
 
 ## credits
 
@@ -15,4 +15,4 @@ hamburgers.css - https://jonsuh.com/hamburgers/
 
 ## preview
 
-https://eversthomas.github.io/html5boiler/index.html
+https://eversthomas.github.io/tom
