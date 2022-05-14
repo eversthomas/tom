@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/*
+ * simple html5 css boiler
+ * Copyright 2021 TomEvers
+ * Licensed under MIT
+ */
+
+@import 'config.css';
+@import 'base.css';
+@import 'typo.css';
+@import 'open-iconic.css';
+@import 'hamburger.css';
+@import 'navigation.css';
+@import 'layout.css';

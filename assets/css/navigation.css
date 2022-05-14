@@ -1,0 +1,20 @@
+/* small menu */
+.main-menu {
+  display: none;
+}
+
+.open {display:block;}
+
+/* desktop menu */
+@media screen and (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+  .main-menu {
+    display: flex;
+  }
+
+  .main-menu a {
+    padding: 0.2rem 1rem 0.2rem 1rem;
+  }
+}

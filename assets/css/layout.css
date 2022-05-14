@@ -1,0 +1,56 @@
+.site-header {
+  background: #eeeeee;
+}
+
+.sidebar {
+  background: green;
+}
+
+.site-footer {
+  background: #444444;
+}
+.site-footer * {
+  color: white;
+}
+
+/* simple css grid */
+
+@media screen and (min-width: 768px) {
+  .with-sidebar {
+    height:100vh;
+    display: grid;
+    grid-template-columns: 22% 22% 22% 17% 17%;
+    grid-template-areas:
+      "header header header header header"
+      "navigation navigation navigation navigation navigation"
+      "content content content sidebar sidebar"
+      "footer footer footer footer footer"
+    ;
+  }
+}
+
+.site-header {
+  grid-area: header;
+  padding: 1rem;
+}
+
+.navigation-bar {
+  grid-area: navigation;
+  position: sticky;
+  background: #ffffff;
+  top: 0;
+  padding: 1rem;
+}
+
+.site-main {
+  grid-area: content;
+  padding: 1rem;
+}
+.sidebar {
+  grid-area: sidebar;
+  padding: 1rem;
+}
+.site-footer {
+  grid-area: footer;
+  padding: 1rem;
+}

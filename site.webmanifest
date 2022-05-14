@@ -1,0 +1,12 @@
+{
+  "short_name": "html5boiler",
+  "name": "html5 css boiler",
+  "icons": [{
+    "src": "icon.png",
+    "type": "image/png",
+    "sizes": "192x192"
+  }],
+  "start_url": "/?utm_source=homescreen",
+  "background_color": "#ffffff",
+  "theme_color": "#444444"
+}
