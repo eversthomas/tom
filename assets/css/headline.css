@@ -7,7 +7,7 @@
     }
   }
   
-  .container-text {
+  .container-text h1 {
     background-image:  url(https://static.pexels.com/photos/4827/nature-forest-trees-fog.jpeg);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
