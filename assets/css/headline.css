@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
 @keyframes filling {
     from{
       background-position: center 25%;
@@ -14,6 +16,7 @@
     color:  #FFFFFF;
     padding-top: 20px;
     animation: filling 3s ease forwards;
+    font-family: 'Bungee', cursive;
     font-weight: bolder;
     font-size: calc(4rem + 5vw);
   }
