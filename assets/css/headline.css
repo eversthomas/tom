@@ -14,4 +14,6 @@
     color:  #FFFFFF;
     padding-top: 20px;
     animation: filling 3s ease forwards;
+    font-weight: bolder;
+    font-size: calc(4rem + 5vw);
   }
