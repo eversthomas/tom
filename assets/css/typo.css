@@ -113,7 +113,7 @@ small {
 	--type-quote: Vollkorn;
 	--quote-image-width: 140px;
 	--border-rad: 7px;
-	--accent-color: hsl(322deg 85% 65%);
+	--accent-color: #f39c12;
 	--quote-bg: hsl(0 0% 97%);
 }
 
@@ -206,5 +206,8 @@ cite {
 
 .cite-last-name {
 	background: var(--accent-color);
-	color: var(--quote-bg);
+  color: var(--quote-bg);
+  padding: 0.2rem;
+  border-radius: 2px;
+  margin-left: 0.2rem;
 }

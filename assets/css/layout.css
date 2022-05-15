@@ -13,6 +13,19 @@ aside,
 
 .sidebar {
   /* background: green; */
+  border-top: 3px solid #444;
+  border-bottom: 3px solid #444;
+  margin-bottom: 3rem;
+}
+
+.sidebar ul {
+  list-style-type: square;
+  padding-left: 1rem;
+}
+
+.sidebar ul li {
+  font-size: 1.2rem;
+  padding-bottom: 0.5rem;
 }
 
 .site-footer {
