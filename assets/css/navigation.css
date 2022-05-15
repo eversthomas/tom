@@ -1,3 +1,8 @@
+.navigation-bar {
+  background: white;
+  z-index: 999999;
+}
+
 /* small menu */
 .main-menu {
   display: none;
