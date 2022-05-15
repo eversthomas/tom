@@ -129,6 +129,10 @@ blockquote {
 	text-indent: 1.6em;
 }
 
+blockquote img {
+  height: 100%;
+}
+
 @media (min-width: 768px) {
 	blockquote {
 		margin: 40px 60px;
